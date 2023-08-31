@@ -1,0 +1,51 @@
+div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+   /* transform:scale(1.5)translate(50px) ; */
+   transform: scale(var(---scale, 1.2))
+   translateX(var(--transform-x,50px))
+   rotate(var(--rotate,30deg))
+   ;
+}
+.big{
+    /* transform: scale(2) translate(50px); */
+    ---scale:1.5;
+}
+.big {
+    /* transform: translateX(-60px); */
+    --transform-x: 100%;
+}
+.skew{
+    --transform-x:130%;
+    ---scale:2;
+    --rotate:150deg;
+    
+}
+    /* transform: rotateZ(25DEG); ROTING ELEMENTS*/
+   /* using with all the properties
+   transform: rotate(35deg)skew(5deg)translate(55%, 50%) scale(1.4); */
+    /* transform: skew(-25deg,40deg); */
+
+    /* transform: scaleZ(1.6);add an scale of the objects */
+   
+     /* Very usefull for centrate objects 
+    transform: translate(250%);
+    position: relative;
+    
+
+
+div::after{
+    position: absolute;
+    content: 'after';
+    color: blue;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}   */

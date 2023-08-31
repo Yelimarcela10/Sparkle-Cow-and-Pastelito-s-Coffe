@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant+Infant:wght@300&display=swap');
+*{
+    font-family: 'conmemorant_infant,Verdana, Geneva, Tahoma, sans-serif';
+
+}
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: rgba(233,231, 214, 0.66);
+    padding: 0 auto;
+}
+
+
+/* titles */
+.navbar-brand{
+    font-family:'Cormorant_Garamond';
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Nav and links nav from the navegation, also hr bar*/
+.navbar-toggler{
+    cursor: pointer;
+}
+.navbar .container-navbar {
+    background-color: rgba(233, 231, 214, 0.806);
+}
+.navbar:hover {
+    transition-duration: 500ms;
+}
+.navbar-item:active{
+    color: rgb(176, 218, 185);
+}
+.nav-item:hover .nav-link{
+    border-bottom: rgba(218, 210, 153, 88%) 3px solid;
+   transition: .3s;
+   transition-duration: 200ms;
+   color: white;
+}
+
+.nav-link{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'conmemorant_infant' ;
+}
+
+/* Carousel content */
+.carousel-image{
+    height: 85vh;
+    
+}
+/* Pattern of all buttons */
+ /* .carousel-caption .btn-carousel{
+    background-color: rgba(176, 218, 185, 47%);
+    color:white;
+    width: 9rem;
+    box-shadow: 0px 5px 5px rgba(101, 101, 101, 0.856);
+    border-radius: 0px;
+}
+
+.carousel-caption .btn-carousel:hover{
+    background-color: rgba(218, 210, 153, 88%);
+    color: white;
+    transform: translate(-50%, -50%);
+    transform: translateY(-6px);
+    transition: all .3s ease-in-out 0s;  
+    border-color: transparent;
+} */
+
+
+/* banner */
+.banner{
+  background-color: rgba(176, 218, 185, 47%);   
+}
+
+.banner-text h2{
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/*images shop */
+/* .images-body .image-resposive{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 40vh;
+    min-height: 30vh;
+}
+
+
+/* text-over images 
+h5{
+    line-height: 55px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.text-over{
+    position: absolute;   
+}
+.text-over { 
+    color: black;
+    background-color: rgba(217, 217, 217, 69%);  
+    height: 10%;
+    width: 372px;
+    cursor: pointer;
+
+} */
+/* Text over and hover bar with text */
+/* .text-over:hover{
+    height: 40vh;
+    transition: all .3s ease-in-out 0s;
+}
+.over-paragraph{
+    visibility: hidden;
+}
+.over-paragraph:hover{
+
+    visibility: visible;
+   
+    opacity: 1;
+} */
+/* card hover */
+.card-body {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 40vh;
+    min-height: 30vh;
+    overflow: hidden;
+}
+
+.card-image-menu{
+    width: 372px;
+    height: 40vh;
+    min-height: 30vh;
+}
+/* title of shop */
+.over-title{
+    margin: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.text-over{
+    height: 25%;
+    width: 70vw;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.616);
+    color: white;
+}
+.over-paragraph{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: inherit;
+    visibility: hidden;
+    opacity: 0;
+    margin: 15px;
+}
+.text-over:hover{
+    cursor: pointer;
+}
+
+.card-body:hover .text-over {
+    height: 40vh;
+    transition: all .3s ease-in-out 0s;
+    background-color: rgba(128, 128, 128, 0.619);
+}
+.card-body .over-paragraph{
+   opacity: 1;
+    visibility: visible;
+}
+
+.card:hover  .image-resposive{
+    transform: scale(1.1);
+}
+
+/* card button responsible of redirects to the online shops of the web */
+/* Menú and online shop button, physycall */
+.card-body .card-btn{
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 0;
+    color: white;
+}
+.card-body .card-btn:hover{
+    background-color: transparent;
+    border: black 2px solid;
+    color: black;
+    transition: none;
+    transform: none;
+}
+.card-body .card-btn:focus{
+    border: rgba(218, 210, 153, 88%) 2px solid;
+    color: rgba(218, 210, 153, 88%);
+}
+.container.btn::before{
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+}
+
+
+/* physycal products online  */
+.products-shop-container .btn-shop{
+    background-color: rgba(176, 218, 185, 47%);
+    color:white;
+    width: 9rem;
+    box-shadow: 0px 5px 5px rgba(101, 101, 101, 0.856);
+    border-radius: 0px;
+    font-weight: 1.3rem;
+}
+
+.products-shop-container .btn-shop:hover{
+    background-color: rgba(218, 210, 153, 88%);
+    color: white;
+    transform: translate(-50%, -50%);
+    transform: translateY(-6px);
+    transition: all .3s ease-in-out 0s;  
+    border-color: transparent;
+}
+.products-shop-text, .card-text{
+    font-size: 1.3rem;
+}
+.card-information,.card-price{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+
+/* gallery image */
+ .gallery-content .gallery-image{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+   
+}
+ /*Galery content  */
+ 
+ .gallery-info-over{
+   position: absolute;
+    min-width: 25vw;
+    min-height: 25vh;
+}
+.blend-container{
+    background-color: rgba(217, 217, 217, 0.306);
+    background-blend-mode: multiply;
+    width: 40vw;
+    height: 33vh;
+    min-width: 300px;
+}
+
+.gallery-title-over{
+    color: white;
+    font-family: 'Cormorant_Garamond';
+    font-weight: 600;
+    font-style: italic
+}
+.gallery-text-over{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.4rem;
+    color: white;
+}
+.gallery-container .gallery-button{
+    background-color: rgba(218, 210, 153, 88%);
+    color:white;
+    width: 9rem;
+    box-shadow: 0px 5px 5px rgba(101, 101, 101, 0.856);
+    border-radius: 0px;
+}
+
+.gallery-container .btn:hover{
+    background-color: rgba(176, 218, 185, 47%); 
+    color: white;
+    transform: translate(-50%, -50%);
+    transform: translateY(-6px);
+    transition: all .3s ease-in-out 0s;  
+    border-color: transparent;
+}   
+.footer-text-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer-text-content a:active{
+    text-decoration: none;
+    color: rgba(218, 210, 153, 88%);
+}
+.footer-text-content a:focus{
+    text-decoration: none;
+    color: rgb(176, 218, 185);
+}
+.footer-text-content a:hover{
+    text-decoration: none;
+    transition: .3s;
+    color: blanchedalmond;
+}
+/* footer-logos */
+.logos a{
+    color: black;
+}
